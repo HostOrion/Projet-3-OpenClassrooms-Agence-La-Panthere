@@ -7,8 +7,25 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
+blockquote{
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+cite{
+    color: #333333;
+}
+
+h2{
+    width: 80%;
+    margin: 0 auto;
+}
+.col-sm-12 p{
+    font-size: 20px;
+}
+
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -360,6 +377,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+@media (max-width: 768px){
+    .portfolio-thumb{
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 768px) {
