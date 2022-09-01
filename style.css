@@ -382,6 +382,12 @@ a:hover {
     .portfolio-thumb{
         margin: 0 auto;
     }
+    .row-no-gutters{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+    }
 }
 
 @media (min-width: 768px) {
